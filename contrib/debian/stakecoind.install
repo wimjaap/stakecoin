@@ -1,0 +1,2 @@
+debian/bin/stakecoind usr/bin
+src/stakecoind usr/lib/stakecoin
