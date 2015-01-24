@@ -106,8 +106,8 @@ public:
 //                           printf("genesis.nTime = %u \n", genesis.nTime);
 //                           printf("genesis.nNonce = %u \n", genesis.nNonce);
 //                           printf("genesis.nVersion = %u \n", genesis.nVersion);
-                             printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str()); //first this, then comment this line out and uncomment the one under.
-//                          // printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str()); //idk                    //      printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+//                           printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str()); //first this, then comment this line out and uncomment the one under.
+//                          // printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str()); //improvised. worked for me, to find merkle root
 //
 //                       }
 //
