@@ -116,9 +116,9 @@ public:
         assert(hashGenesisBlock == uint256("0x000004e1f72eebe05375e870a6d29e991a28f75295b30c0480ce0efdcc8541f0"));
         assert(genesis.hashMerkleRoot == uint256("0x3aff80cc60ca24508a1018f087c1cb8b1a097ccc60c7dd65d83cf69143937fae"));
 
-        vSeeds.push_back(CDNSSeedData("198.105.125.119", "198.105.125.119"));
-        vSeeds.push_back(CDNSSeedData("198.105.125.117", "198.105.125.117"));
-        vSeeds.push_back(CDNSSeedData("198.105.125.118", "198.105.125.118"));
+        vSeeds.push_back(CDNSSeedData("nodea.stakecoin.co", "nodea.stakecoin.co"));
+        vSeeds.push_back(CDNSSeedData("nodeb.stakecoin.co", "nodeb.stakecoin.co"));
+        vSeeds.push_back(CDNSSeedData("nodec.stakecoin.co", "nodec.stakecoin.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(43);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(8);
